@@ -1,0 +1,25 @@
+{
+  "name": "@create-toimc-app/core",
+  "version": "1.0.0",
+  "description": "create-toimc-app core",
+  "author": "白叶 <1511455676@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "",
+  "bin": {
+    "create-toimc-app": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@create-toimc-app/utils": "^1.0.0"
+  }
+}
