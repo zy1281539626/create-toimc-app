@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 
-console.log("hello create-toimc-app");
+const importLocal = require("import-local");
 
-const utils = require("@create-toimc-app/utils");
-
-utils();
+if (importLocal(__filename)) {
+  require("npmlog").info("cli", "正在使用create-toimc-app");
+} else {
+  require("../lib")(process.argv.slice(2));
+}

@@ -20,6 +20,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@create-toimc-app/utils": "^1.0.0"
+    "@create-toimc-app/log": "^1.0.0",
+    "@create-toimc-app/utils": "^1.0.0",
+    "import-local": "^3.1.0"
   }
 }

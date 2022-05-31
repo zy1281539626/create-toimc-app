@@ -2,6 +2,15 @@
 
 module.exports = core;
 
+const pkg = require("../package.json");
+const log = require("@create-toimc-app/log");
+
 function core() {
-  // TODO
+  console.log("exec core");
+  checkPkgVersion();
+}
+
+function checkPkgVersion() {
+  console.log(pkg.version);
+  log();
 }
